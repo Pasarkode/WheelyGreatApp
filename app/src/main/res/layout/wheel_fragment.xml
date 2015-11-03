@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="120sp"
+        android:layout_height="120dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/spinning_view"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spin_button"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="@string/spin"/>
+
+</FrameLayout>
